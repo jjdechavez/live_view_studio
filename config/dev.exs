@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :live_view_studio, LiveViewStudio.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "admin",
   database: "live_view_studio_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
